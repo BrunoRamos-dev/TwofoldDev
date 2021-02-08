@@ -8,6 +8,10 @@
     
 }
 
+.navbar-dark .navbar-nav .navbar-link.active,
+.navbar-dark .navbar-nav .navbar-link:hover{
+    color:rgb(64, 129, 89);
+}
 
 .navbar-brand{
     letter-spacing: 1rem;
@@ -17,11 +21,6 @@
 .nav-item{
     font-size:25px;
     padding: 0px 20px;
-}
-
-.nav-item:hover{
-    background-color: rgb(252, 227, 3);
-
 }
 
 

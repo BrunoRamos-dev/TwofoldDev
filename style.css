@@ -1,28 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 
-.navbar{
-   
-    font-family: 'Fredoka One', cursive;
-    padding: 25px;
-    background: rgb(0, 255, 110) !important;
-    
+.navbar {
+  font-family: "Fredoka One", cursive;
+  padding: 25px;
+  background: #463f3a !important;
 }
 
-.navbar-dark .navbar-nav .navbar-link.active,
-.navbar-dark .navbar-nav .navbar-link:hover{
-    color:rgb(64, 129, 89);
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 35px;
+  padding: 0px 20px;
+  color: #f4f3ee;
 }
 
-.navbar-brand{
-    letter-spacing: 1rem;
-    font-size:30px;
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #e0afa0;
 }
-
-.nav-item{
-    font-size:25px;
-    padding: 0px 20px;
-}
-
-
 
 

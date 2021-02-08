@@ -14,14 +14,16 @@
     font-size:30px;
 }
 
-.nav-item, .nav-item:hover{
+.nav-item{
     font-size:25px;
     padding: 0px 20px;
-    color: rgb(255, 0, 0);
+}
+
+.nav-item:hover{
+    background-color: rgb(252, 227, 3);
+
 }
 
 
-.nav-link{
-    color: rgb(255, 255, 255);
-}
+
 

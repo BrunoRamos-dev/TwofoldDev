@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+header .navbar{
+    background-color: red;
+}
+
+header .navbar .navbar-brand{
+    font-weight: 800;
+}
+
+header .navbar .navbar-nav .nav-item{
+    padding: 0 25px;
+}
+
+header .home-container{
+    z-index: -1;
+    background: aqua;
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left:50%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header .home-container h1{
+    font-size: 75px;
+    font-weight: 700;
+}
+
+header .home-container h3{
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.about{
+    padding: 50px 20px;
+}
+
+.about .about-content{
+    padding: 0 25px;
+
+}
+
+.about .about-content h1{
+    text-align: center;
+    font-weight: 800;
+}
+
+.about .about-content hr.rounded {
+    border-top: 8px solid;
+    border-radius: 5px;
+    color: red;
+}
+
+.projects{
+    background: aqua;
+}
+
+.projects h1{
+    text-align: center;
+    font-weight: 800;
+}
+
+.projects hr.rounded {
+    border-top: 8px solid;
+    border-radius: 5px;
+    color: red;
+}
+
+.projects .project-card{
+    padding: 25px 15px;
+    text-align: center;
+    cursor:default;
+}
+
+.projects .project-card h5{
+    font-weight: 700;
+}
+
+.projects .project-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.footer-content{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
